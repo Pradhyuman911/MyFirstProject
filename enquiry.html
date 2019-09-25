@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title></title>
+            <style>
+                div 
+                    {
+                        border-radius: 15px;
+                        background-color: #f2f2f2;
+                        padding: 15px 300px;
+                        text-align: center;
+                        margin: 1px 100px;
+                    }
+                input
+                    {
+                        width: 300px; 
+                        padding: 12px 20px;  
+                        margin: 10px 5px;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 8px;
+                        box-sizing: border-box;
+                        outline: none;
+                    }
+                #r
+                    {
+                        background-color:  #4CAF50;
+                        color:white;
+                        padding: 14px 20px;
+                        margin: 10px 10px;
+                        border: none;
+                        border-radius: 50px;
+                        outline: none;
+                    }
+                #r:hover
+                    {
+                        background-color: #2f7933;
+                        cursor: pointer;
+                    }
+                label
+                    {
+                        color: rgb(117, 109, 109);
+                        font-family: serif;
+                        font-size: 20px;
+                        text-shadow: 2px 2px 5px rgb(112, 104, 104);
+                    }
+            </style>
+        </head>
+        <body>
+            <div>
+                <form>
+                    <fieldset style="border-radius: 10px;">
+                        <legend style="font-family: Impact,'Arial Narrow Bold';color: rgb(114, 111, 111);">Enquiry of Housing Society Management Software</legend>
+                             <label>Society Name:</label><br>
+                             <input type="text" name="societyname" placeholder="Society Name">
+                             <br>
+                             <label>Full Name:</label><br>
+                             <input type="text" name="fullname" placeholder="FullName">
+                             <br>
+                             <label>Email Address:</label><br>
+                             <input type="email" name="email" placeholder="Email Address">
+                             <br>
+                             <label>Contact No:</label><br>
+                             <input type="tel" name="contact" placeholder="Contact No">
+                             <br>
+                             <input id="r" type="submit" value="SUBMIT"><input id="r" type="button" value="CLOSE">
+                     </fieldset> 
+                </form>
+            </div>
+        </body>
+</html>
