@@ -1,0 +1,16 @@
+# application: myproject0911
+# version: 1
+runtime: python27
+threadsafe: true
+
+handlers:
+  - url: /.*
+    script: main.start
+
+  - url: /images
+    static_dir: static/images
+
+  - url: /(.*\.(gif|png|jpg))$
+    static_files: static/\images
+    upload: static/.*\.(gif|png|jpg)$
+  
