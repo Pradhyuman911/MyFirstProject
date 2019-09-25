@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+     <style type="text/css">
+     	   #Clear
+     	   {
+     	   	   width: 160px; 
+     	   }
+     	   .formstyle
+     	   {
+     	   	     width: 160px;
+     	   	     height: 270px;
+     	        margin: auto;
+     	        border: 2px solid black;
+     	   }
+     	   input
+     	   {
+     	   	    width: 50px;
+     	   	    background-color: yellow;
+     	   }
+     	   #anwserstyle
+     	   {
+                width: 156px;
+     	   }
+     </style>
+</head>
+<body>
+	  <div class="formstyle">
+	  	     <form name="forms">
+	  	     	   
+	  	     	   <input type="text" name="anwser" id="anwserstyle"><br><br>
+	  	     <input type="button" value=" 1 " name="" onclick="forms.anwser.value += '1'">
+	  	     <input type="button" value=" 2 " name="" onclick="forms.anwser.value += '2'">
+	  	     <input type="button" value=" 3 " name="" onclick="forms.anwser.value += '3'">
+                <br><br>
+             <input type="button" value=" 4 " name="" onclick="forms.anwser.value += '4'">
+	  	     <input type="button" value=" 5 " name="" onclick="forms.anwser.value += '5'">
+	  	     <input type="button" value=" 6 " name="" onclick="forms.anwser.value += '6'">
+                <br><br>
+             <input type="button" value=" 7 " name="" onclick="forms.anwser.value += '7'">
+	  	     <input type="button" value=" 8 " name="" onclick="forms.anwser.value += '8'">
+	  	     <input type="button" value=" 9 " name="" onclick="forms.anwser.value += '9'">
+                <br><br>
+             <input type="button" value=" + " name="" onclick="forms.anwser.value += '+'">
+	  	     <input type="button" value=" - " name="" onclick="forms.anwser.value += '-'">
+	  	     <input type="button" value=" * " name="" onclick="forms.anwser.value += '*'">
+                <br><br>
+	  	     <input type="button" value=" / " name="" onclick="forms.anwser.value += '/'">
+	  	     <input type="button" value=" 0 " name="" onclick="forms.anwser.value += '0'">
+<input type="button" value=" = " name="" onclick="forms.anwser.value = eval(forms.anwser.value) ">
+  <br><br>
+<input type="button" name="" value="Clear All" onclick="forms.anwser.value =''" id="Clear">
+
+ 
+	  	     </form>
+	  </div>
+
+</body>
+</html>
